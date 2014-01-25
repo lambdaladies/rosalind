@@ -1,0 +1,1 @@
+"GATGGAACTTGACTACGTAAATT".Replace('T', 'U')
