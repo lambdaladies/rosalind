@@ -45,6 +45,8 @@
     <None Include="2-RNA.fsx" />
     <None Include="3-REVC.fsx" />
     <None Include="4-FIB.fsx" />
+    <None Include="6-HAMM.fsx" />
+    <None Include="8-PROT.fsx" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
