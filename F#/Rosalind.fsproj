@@ -5,13 +5,14 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>2073546a-e85b-48f9-834f-524b35c9379f</ProjectGuid>
+    <ProjectGuid>2073546A-E85B-48F9-834F-524B35C9379F</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>Rosalind</RootNamespace>
     <AssemblyName>Rosalind</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <Name>Rosalind</Name>
     <TargetFSharpCoreVersion>4.3.0.0</TargetFSharpCoreVersion>
+    <ProductVersion>12.0.0</ProductVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -33,9 +34,7 @@
     <DocumentationFile>bin\Release\Rosalind.XML</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="FSharp.Core, Version=$(TargetFSharpCoreVersion), Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-      <Private>True</Private>
-    </Reference>
+    <Reference Include="FSharp.Core, Version=$(TargetFSharpCoreVersion), Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
     <Reference Include="mscorlib" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -45,6 +44,7 @@
     <None Include="1-DNA.fsx" />
     <None Include="2-RNA.fsx" />
     <None Include="3-REVC.fsx" />
+    <None Include="4-FIB.fsx" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
