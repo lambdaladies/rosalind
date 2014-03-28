@@ -1,9 +1,7 @@
 
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Rosalind", "Rosalind.fsproj", "{2073546A-E85B-48F9-834F-524B35C9379F}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{4925A630-B079-445d-BCD4-3A9C94FE9307}") = "Rosalind", "Rosalind.fsproj", "{7DF44CAC-8503-48A4-9A0C-2444216E899A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,12 +9,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2073546A-E85B-48F9-834F-524B35C9379F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2073546A-E85B-48F9-834F-524B35C9379F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2073546A-E85B-48F9-834F-524B35C9379F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2073546A-E85B-48F9-834F-524B35C9379F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DF44CAC-8503-48A4-9A0C-2444216E899A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DF44CAC-8503-48A4-9A0C-2444216E899A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DF44CAC-8503-48A4-9A0C-2444216E899A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DF44CAC-8503-48A4-9A0C-2444216E899A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Rosalind.fsproj
 	EndGlobalSection
 EndGlobal
